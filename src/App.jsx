@@ -9,12 +9,14 @@ import Header from 'Header.jsx'
 import Main from 'Main.jsx'
 
 const muiTheme = getMuiTheme({
-  primary1Color: grey500,
-  primary2Color: grey700,
-  primary3Color: grey800,
-  accent1Color: grey500,
-  accent2Color: grey700,
-  accent3Color: grey800,
+  palette: {
+    primary1Color: grey500,
+    primary2Color: grey700,
+    primary3Color: grey800,
+    accent1Color: grey500,
+    accent2Color: grey700,
+    accent3Color: grey800,
+  },
 })
 
 
