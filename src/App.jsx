@@ -4,6 +4,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import React from 'react'
 import { Link } from 'react-router'
 
+import Footer from 'Footer.jsx'
 import Header from 'Header.jsx'
 import Main from 'Main.jsx'
 
@@ -22,6 +23,7 @@ const App = () => (
     <div>
       <Header />
       <Main />
+      <Footer />
     </div>
   </MuiThemeProvider>
 )

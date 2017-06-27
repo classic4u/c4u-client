@@ -1,39 +1,74 @@
 import {
   Card,
-  CardActions,
   CardHeader,
   CardText,
+  CardTitle,
   Divider,
-  FlatButton,
   Paper
 } from 'material-ui'
 import React from 'react'
 
 const BDO = () => (
   <section>
-    Black Desert Online
-    <Divider />
-    <Paper>
-      <a target="_blank" href="http://bdoplanner.com/save/[[13],[11046,18,[15125,15035]],[11047,17,[15136,15136]],[11049,18,[-1,-1]],[11015,18,[-1,-1]],[[12027,0],[12007,2]],[[11817,2],[11816,2]],[12220,1],[11613,2],[11210,18,[-1,-1]],[14825,18],[11340,18,[-1,-1]],[-1],[-1,[-1]],[-1],[-1],[-1],[-1]]">Current Build</a>
-      <a target="_blank" href="">Target Build</a>
-      <p>Gear Rationalization: I think we need to.</p>
-    </Paper>
-    <Paper>
-      BDO Resources: Here are some super useful BDO resources.
-      <Card>
-        <CardHeader
-          title="Leveling"
-          actAsExpander={true}
-          showExpandableButton={true}
-        />
-        <CardActions>
-          <FlatButton label="fag" />
-        </CardActions>
-        <CardText expandable={true}>
-          Blah blah blah
-        </CardText>
-      </Card>
-    </Paper>
+    <Card>
+      <CardTitle title="Black Desert Online" />
+    </Card>
+    <Card>
+      <CardText>
+        <a target="_blank" href="http://bdoplanner.com/save/[[13],[11046,18,[15125,15035]],[11047,17,[15136,15136]],[11049,18,[-1,-1]],[11015,18,[-1,-1]],[[12027,0],[12007,2]],[[11817,2],[11816,2]],[12220,1],[11613,2],[11210,18,[-1,-1]],[14825,18],[11340,18,[-1,-1]],[-1],[-1,[-1]],[-1],[-1],[-1],[-1]]">Current Build</a>
+      </CardText>
+    </Card>
+    <Card>
+      <CardText>
+        <a target="_blank" href="">Target Build</a>
+      </CardText>
+    </Card>
+    <Card>
+      <CardTitle
+        title="BDO Resources"
+        subtitle="Extremely Useful."
+      />
+    </Card>
+    <Card>
+      <CardHeader
+        title="Leveling"
+        actAsExpander={true}
+        showExpandableButton={true}
+      />
+      <CardText expandable={true}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
+        Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
+        Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+      </CardText>
+    </Card>
+    <Card>
+      <CardHeader
+        title="Life Skills"
+        actAsExpander={true}
+        showExpandableButton={true}
+      />
+      <CardText expandable={true}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
+        Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
+        Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+      </CardText>
+    </Card>
+    <Card>
+      <CardHeader
+        title="Enhancing"
+        actAsExpander={true}
+        showExpandableButton={true}
+      />
+      <CardText expandable={true}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
+        Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
+        Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+      </CardText>
+    </Card>
+
   </section>
 )
 
