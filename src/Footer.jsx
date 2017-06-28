@@ -9,18 +9,22 @@ const Footer = () => (
     <BottomNavigationItem
       label="Twitter"
       icon={recentsIcon}
-    />
+      onTouchTap={() => window.open('https://twitter.com/classic4utv')}
+    ></BottomNavigationItem>
     <BottomNavigationItem
       label="Twitch"
       icon={recentsIcon}
+      onTouchTap={() => window.open('https://www.twitch.tv/classic4u')}
     />
     <BottomNavigationItem
       label="Steam"
       icon={recentsIcon}
+      onTouchTap={() => window.open('https://steamcommunity.com/id/classic4u/')}
     />
     <BottomNavigationItem
       label="GitHub"
       icon={recentsIcon}
+      onTouchTap={() => window.open('https://github.com/classic4u')}
     />
   </BottomNavigation>
 )
