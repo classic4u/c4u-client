@@ -36,12 +36,12 @@ const Setup = () => (
             <TableRowColumn>
               <a target="_blank" href="https://www.amazon.com/gp/product/B019EXSSBG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019EXSSBG&linkCode=as2&tag=c4u02-20&linkId=0fbae51a21cec6f4bb7ae1dc6a9a9187">Corsair H100i v2</a>
             </TableRowColumn>
-            <TableRowColumn>My first foray into liquid cooling.  This thing was a breeze to install and works quite well.</TableRowColumn>
+            <TableRowColumn>My first foray into liquid cooling.  This thing keeps my overclocked 7700k under 70&deg;C, even at full load.</TableRowColumn>
           </TableRow>
           <TableRow>
             <TableRowColumn>Motherboard</TableRowColumn>
             <TableRowColumn><a target="_blank" href="https://www.amazon.com/gp/product/B014W2000Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B014W2000Q&linkCode=as2&tag=c4u02-20&linkId=0ceec665fcc73657fa4f7fa1baaa7407">Gigabyte GA-Z170N-Gaming 5</a></TableRowColumn>
-            <TableRowColumn>This is a Mini-ITX board I had from a build I did a couple years ago.  Suits my needs, and enough room for a </TableRowColumn>
+            <TableRowColumn>This is a Mini-ITX board I had from a build I did a couple years ago.  Suits my needs, and enough room for a large vidyo card like the 1080 ti. </TableRowColumn>
           </TableRow>
           <TableRow>
             <TableRowColumn>Memory</TableRowColumn>
@@ -49,14 +49,14 @@ const Setup = () => (
             <TableRowColumn>RAM is RAM for the most part. Also from an older build, it was on the higher end of speeds back then, still seems to get the job done.  From what I've seen, higher RAM speed doesn't make a huge difference in performance.</TableRowColumn>
           </TableRow>
           <TableRow>
-            <TableRowColumn>Storage</TableRowColumn>
-            <TableRowColumn>Sup</TableRowColumn>
-            <TableRowColumn>Sup</TableRowColumn>
+            <TableRowColumn>Storage 1</TableRowColumn>
+            <TableRowColumn><a target="_blank" href="https://www.amazon.com/gp/product/B00OAJ412U/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00OBRFFAS&linkCode=as2&tag=c4u02-20&linkId=f4b070d0f46eeae030c99b557c5ab9fa">Samsung 850 EVO 250GB</a></TableRowColumn>
+            <TableRowColumn>I'm running a Hackintosh build, which is why I have 2 harddrives. This one is smaller and used on my Windows side - I do all my coding, photo-editing, and music-making on the Mac side.</TableRowColumn>
           </TableRow>
           <TableRow>
-            <TableRowColumn>Storage</TableRowColumn>
-            <TableRowColumn>Sup</TableRowColumn>
-            <TableRowColumn>Sup</TableRowColumn>
+            <TableRowColumn>Storage 2</TableRowColumn>
+            <TableRowColumn><a target="_blank" href="https://www.amazon.com/gp/product/B00OBRFFAS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00OBRFFAS&linkCode=as2&tag=c4u02-20&linkId=f4b070d0f46eeae030c99b557c5ab9fa">Samsung 850 EVO 1TB</a></TableRowColumn>
+            <TableRowColumn></TableRowColumn>
           </TableRow>
           <TableRow>
             <TableRowColumn>Video Card</TableRowColumn>
@@ -91,7 +91,7 @@ const Setup = () => (
         <TableHeader displaySelectAll={false}>
           <TableHeaderColumn>Streaming Equipment</TableHeaderColumn>
         </TableHeader>
-        <TableBody>
+        <TableBody displayRowCheckbox={false}>
           <TableRow>
             <TableRowColumn>Mic</TableRowColumn>
             <TableRowColumn><a target="_blank" href="https://www.amazon.com/gp/product/B0006H92QK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0006H92QK&linkCode=as2&tag=c4u02-20&linkId=6e3ba4e86c33ff957270b1da7c18f10a">Audio-Technica AT2020 Cardioid Condenser Studio Microphone</a></TableRowColumn>
