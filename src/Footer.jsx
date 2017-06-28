@@ -2,28 +2,27 @@ import { BottomNavigation, BottomNavigationItem } from 'material-ui/BottomNaviga
 import FontIcon from 'material-ui/FontIcon'
 import React from 'react'
 
-const recentsIcon = <FontIcon className="material-icons">restore</FontIcon>
+const twitterIcon = <FontIcon>Twitter</FontIcon>
+const twitchIcon = <FontIcon>Twitch</FontIcon>
+const steamIcon = <FontIcon>Steam</FontIcon>
+const gitHubIcon = <FontIcon>GitHub</FontIcon>
 
 const Footer = () => (
   <BottomNavigation>
     <BottomNavigationItem
-      label="Twitter"
-      icon={recentsIcon}
+      icon={twitterIcon}
       onTouchTap={() => window.open('https://twitter.com/classic4utv')}
     ></BottomNavigationItem>
     <BottomNavigationItem
-      label="Twitch"
-      icon={recentsIcon}
+      icon={twitchIcon}
       onTouchTap={() => window.open('https://www.twitch.tv/classic4u')}
     />
     <BottomNavigationItem
-      label="Steam"
-      icon={recentsIcon}
+      icon={steamIcon}
       onTouchTap={() => window.open('https://steamcommunity.com/id/classic4u/')}
     />
     <BottomNavigationItem
-      label="GitHub"
-      icon={recentsIcon}
+      icon={gitHubIcon}
       onTouchTap={() => window.open('https://github.com/classic4u')}
     />
   </BottomNavigation>

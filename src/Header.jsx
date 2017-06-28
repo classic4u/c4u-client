@@ -6,7 +6,7 @@ const Header = () => (
   <header>
     <AppBar
       title="classic4u"
-      iconElementLeft={<img src="http://localhost:3000/logo.png" className="logo" alt="Logo" />}
+      iconElementLeft={<img src="logo.png" className="logo" alt="Logo" />}
     />
     <Tabs>
       <Tab label={"Root"} value={0} containerElement={<Link to="/" />} />

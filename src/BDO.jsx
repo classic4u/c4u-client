@@ -19,11 +19,6 @@ const BDO = () => (
       </CardText>
     </Card>
     <Card>
-      <CardText>
-        <a target="_blank" href="">Target Build</a>
-      </CardText>
-    </Card>
-    <Card>
       <CardTitle
         title="BDO Resources"
         subtitle="Extremely Useful."
@@ -36,10 +31,7 @@ const BDO = () => (
         showExpandableButton={true}
       />
       <CardText expandable={true}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-        Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-        Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+        HA HA! WIP
       </CardText>
     </Card>
     <Card>
@@ -49,10 +41,7 @@ const BDO = () => (
         showExpandableButton={true}
       />
       <CardText expandable={true}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-        Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-        Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+        HA HA! WIP
       </CardText>
     </Card>
     <Card>
@@ -62,10 +51,7 @@ const BDO = () => (
         showExpandableButton={true}
       />
       <CardText expandable={true}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-        Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-        Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+        HA HA! WIP
       </CardText>
     </Card>
 
