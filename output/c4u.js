@@ -66936,7 +66936,7 @@ var BDO = function BDO() {
         null,
         _react2.default.createElement(
           'a',
-          { target: '_blank', href: 'http://bdoplanner.com/save/[[13],[11046,18,[15125,15035]],[11047,17,[15136,15136]],[11049,18,[-1,-1]],[11015,18,[-1,-1]],[[12027,0],[12007,2]],[[11817,2],[11816,2]],[12220,1],[11613,2],[11210,18,[-1,-1]],[14825,18],[11340,18,[-1,-1]],[-1],[-1,[-1]],[-1],[-1],[-1],[-1]]' },
+          { target: '_blank', href: 'http://bdoplanner.com/save/[[13],[11046,18,[15125,15035]],[11047,17,[15136,15136]],[11016,17,[15111,15111]],[11015,18,[15118,15116]],[[12027,0],[12007,2]],[[11817,2],[11816,2]],[12220,1],[11613,2],[11210,18,[15605,15026]],[14825,18],[11340,18,[15130,15130]],[-1],[-1,[-1]],[-1],[-1],[-1],[-1]]' },
           'Current Build'
         )
       )
@@ -66945,9 +66945,66 @@ var BDO = function BDO() {
       _materialUi.Card,
       null,
       _react2.default.createElement(_materialUi.CardTitle, {
-        title: 'BDO Resources',
-        subtitle: 'Extremely Useful.'
+        title: 'BDO Guides Meta-Guide',
+        subtitle: 'Some resources I\'ve found really useful with explanations as to why.'
       })
+    ),
+    _react2.default.createElement(
+      _materialUi.Card,
+      null,
+      _react2.default.createElement(_materialUi.CardHeader, {
+        title: 'Enhancing',
+        actAsExpander: true,
+        showExpandableButton: true
+      }),
+      _react2.default.createElement(
+        _materialUi.CardText,
+        { expandable: true },
+        _react2.default.createElement(
+          _materialUi.Table,
+          null,
+          _react2.default.createElement(
+            _materialUi.TableBody,
+            { displayRowCheckbox: false },
+            _react2.default.createElement(
+              _materialUi.TableRow,
+              null,
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { target: '_blank', href: 'https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#' },
+                  'BDO Enhancement Tables'
+                )
+              ),
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                'My bible for figuring out what failstacks to build for my enhancement attempts. Note that if you have artisan\'s memories to use with memory fragments, that may change the math for you.'
+              )
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRow,
+              null,
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { target: '_blank', href: 'http://www.incendar.com/failstackoptimizer.php' },
+                  'Incendar\'s FailStack Optimizer'
+                )
+              ),
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                'A quick table showing the cheapest method to get to a given number of failstacks.'
+              )
+            )
+          )
+        )
+      )
     ),
     _react2.default.createElement(
       _materialUi.Card,
@@ -66960,7 +67017,32 @@ var BDO = function BDO() {
       _react2.default.createElement(
         _materialUi.CardText,
         { expandable: true },
-        'HA HA! WIP'
+        _react2.default.createElement(
+          _materialUi.Table,
+          null,
+          _react2.default.createElement(
+            _materialUi.TableBody,
+            { displayRowCheckbox: false },
+            _react2.default.createElement(
+              _materialUi.TableRow,
+              null,
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://www.reddit.com/r/blackdesertonline/comments/5orkr7/answers_faq_about_grinding/' },
+                  'FAQ About Grinding'
+                )
+              ),
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                'A list of grind spots & recommended AP/DP. Quite useful for me when I was first figuring out where to grind post-50.'
+              )
+            )
+          )
+        )
       )
     ),
     _react2.default.createElement(
@@ -66974,21 +67056,32 @@ var BDO = function BDO() {
       _react2.default.createElement(
         _materialUi.CardText,
         { expandable: true },
-        'HA HA! WIP'
-      )
-    ),
-    _react2.default.createElement(
-      _materialUi.Card,
-      null,
-      _react2.default.createElement(_materialUi.CardHeader, {
-        title: 'Enhancing',
-        actAsExpander: true,
-        showExpandableButton: true
-      }),
-      _react2.default.createElement(
-        _materialUi.CardText,
-        { expandable: true },
-        'HA HA! WIP'
+        _react2.default.createElement(
+          _materialUi.Table,
+          null,
+          _react2.default.createElement(
+            _materialUi.TableBody,
+            { displayRowCheckbox: false },
+            _react2.default.createElement(
+              _materialUi.TableRow,
+              null,
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { target: '_blank', href: 'https://www.youtube.com/watch?v=uH2sN62JUSI' },
+                  'Container Trading Guide'
+                )
+              ),
+              _react2.default.createElement(
+                _materialUi.TableRowColumn,
+                null,
+                'The most enjoyable active trading method, IMO.'
+              )
+            )
+          )
+        )
       )
     )
   );
@@ -67078,7 +67171,7 @@ var Home = function Home() {
             null,
             'What do you do for a living?'
           ),
-          ' I\'m a software developer by trade.  I made enough money coding and trading to take a year to pursue my dreams - Right now, I\'m part-time streaming and part-time cryptocurrency trading!'
+          ' I\'m a software developer by career. I\'m lucky enough to be taking a year off to pursue my dreams! - Investing in the cryptocurrency sphere, and streaming on twitch.tv'
         ),
         _react2.default.createElement(
           'p',
