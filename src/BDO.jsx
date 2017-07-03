@@ -51,6 +51,31 @@ const BDO = () => (
     </Card>
     <Card>
       <CardHeader
+        title="General"
+        actAsExpander={true}
+        showExpandableButton={true}
+      />
+      <CardText expandable={true}>
+        <Card>
+          <CardHeader
+            title={<a target="_blank" href="http://bdoplanner.com/">bdoplanner.com</a>}
+          />
+          <CardText>
+            Invaluable gear planner. Use this to mess around with different gear setups and figure out which upgrade you want to go for next.
+          </CardText>
+        </Card>
+        <Card>
+          <CardHeader
+            title={<a target="_blank" href="http://www.somethinglovely.net/bdo/">somethinglovely.net</a>}
+          />
+          <CardText>
+            An interactive map with a nice UI. Use it to figure out node connections, find world boss spawns, and resource locations. There's also a Crate Calculator and Horse Calculator, both of which are useful if you're pursuing the respective life skills.
+          </CardText>
+        </Card>
+      </CardText>
+    </Card>
+    <Card>
+      <CardHeader
         title="Leveling"
         actAsExpander={true}
         showExpandableButton={true}
