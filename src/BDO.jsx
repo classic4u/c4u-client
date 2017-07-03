@@ -11,7 +11,7 @@ import {
   TableRowColumn
 } from 'material-ui'
 import React from 'react'
-
+// TODO: Links don't appear as links when you hover over them?
 const BDO = () => (
   <section>
     <Card>
@@ -35,26 +35,18 @@ const BDO = () => (
         showExpandableButton={true}
       />
       <CardText expandable={true}>
-        <Table>
-          <TableBody displayRowCheckbox={false}>
-            <TableRow>
-              <TableRowColumn>
-                <a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Tables</a>
-              </TableRowColumn>
-              <TableRowColumn>
-                My bible for figuring out what failstacks to build for my enhancement attempts. Note that if you have artisan's memories to use with memory fragments, that may change the math for you.
-              </TableRowColumn>
-            </TableRow>
-            <TableRow>
-              <TableRowColumn>
-                <a target="_blank" href="http://www.incendar.com/failstackoptimizer.php">Incendar's FailStack Optimizer</a>
-              </TableRowColumn>
-              <TableRowColumn>
-                A quick table showing the cheapest method to get to a given number of failstacks.
-              </TableRowColumn>
-            </TableRow>
-          </TableBody>
-        </Table>
+        <Card>
+          <CardHeader
+            title={<a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Tables</a>}
+          />
+          <CardText>My bible for figuring out what failstacks to build for my enhancement attempts. Note that if you have artisan's memories to use with memory fragments, that may change the math for you.</CardText>
+        </Card>
+        <Card>
+          <CardHeader
+            title={<a target="_blank" href="http://www.incendar.com/failstackoptimizer.php">Incendar's FailStack Optimizer</a>}
+          />
+          <CardText>A quick table showing the cheapest method to get to a given number of failstacks.</CardText>
+        </Card>
       </CardText>
     </Card>
     <Card>
@@ -64,18 +56,12 @@ const BDO = () => (
         showExpandableButton={true}
       />
       <CardText expandable={true}>
-        <Table>
-          <TableBody displayRowCheckbox={false}>
-            <TableRow>
-              <TableRowColumn>
-                <a href="https://www.reddit.com/r/blackdesertonline/comments/5orkr7/answers_faq_about_grinding/">FAQ About Grinding</a>
-              </TableRowColumn>
-              <TableRowColumn>
-                A list of grind spots & recommended AP/DP. Quite useful for me when I was first figuring out where to grind post-50.
-              </TableRowColumn>
-            </TableRow>
-          </TableBody>
-        </Table>
+        <Card>
+          <CardHeader
+            title={<a target="_blank" href="https://www.reddit.com/r/blackdesertonline/comments/5orkr7/answers_faq_about_grinding/">FAQ About Grinding</a>}
+          />
+          <CardText>A list of grind spots & recommended AP/DP. Quite useful for me when I was first figuring out where to grind post-50.</CardText>
+        </Card>
       </CardText>
     </Card>
     <Card>
@@ -85,18 +71,12 @@ const BDO = () => (
         showExpandableButton={true}
       />
       <CardText expandable={true}>
-        <Table>
-          <TableBody displayRowCheckbox={false}>
-            <TableRow>
-              <TableRowColumn>
-                <a target="_blank" href="https://www.youtube.com/watch?v=uH2sN62JUSI">Container Trading Guide</a>
-              </TableRowColumn>
-              <TableRowColumn>
-                The most enjoyable active trading method, IMO.
-              </TableRowColumn>
-            </TableRow>
-          </TableBody>
-        </Table>
+        <Card>
+          <CardHeader
+            title={<a target="_blank" href="https://www.youtube.com/watch?v=uH2sN62JUSI">Container Trading Guide</a>}
+          />
+          <CardText>The most enjoyable active trading method, IMO. Follow this if you're trying to level up Trading to Master 2 for that sweet sweet trading buff.</CardText>
+        </Card>
       </CardText>
     </Card>
   </section>
