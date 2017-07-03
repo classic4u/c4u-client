@@ -67263,22 +67263,17 @@ var Setup = function Setup() {
     'section',
     null,
     _react2.default.createElement(
-      _materialUi.Paper,
+      _materialUi.Card,
       null,
+      _react2.default.createElement(_materialUi.CardTitle, { title: "Setup" }),
       _react2.default.createElement(
-        'h2',
-        null,
-        'Setup'
-      ),
-      _react2.default.createElement(_materialUi.Divider, null),
-      _react2.default.createElement(
-        'h3',
+        _materialUi.CardText,
         null,
         'Disclaimer:  All the links on this page are Amazon Affiliate links, meaning I get a kickback from each purchase you make off the link.  Amazon usually has competitive prices and good shipping/return policies, but I\'d also recommend shopping around for cheaper! (Newegg is my other go-to).'
       )
     ),
     _react2.default.createElement(
-      _materialUi.Paper,
+      _materialUi.Card,
       null,
       _react2.default.createElement(
         _materialUi.Table,
@@ -67314,7 +67309,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'Pretty much the creme-de-la-creme of quad-core processors at the moment.  I was considering changing to a processor with more cores for better gaming and streaming on the same machine (Ryzen or 6950x?), but either of those would have required purchasing a new motherboard too (With the i7-7700k I can use my z170 I\'ve had for a while).  '
             )
           ),
@@ -67337,7 +67332,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'My first foray into liquid cooling.  This thing keeps my overclocked 7700k under 70\xB0C, even at full load.'
             )
           ),
@@ -67360,7 +67355,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'This is a Mini-ITX board I had from a build I did a couple years ago.  Suits my needs, and enough room for a large vidyo card like the 1080 ti. '
             )
           ),
@@ -67383,7 +67378,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'RAM is RAM for the most part. Also from an older build, it was on the higher end of speeds back then, still seems to get the job done.  From what I\'ve seen, higher RAM speed doesn\'t make a huge difference in performance.'
             )
           ),
@@ -67406,7 +67401,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'I\'m running a Hackintosh build, which is why I have 2 harddrives. This one is smaller and used on my Windows side - I do all my coding, photo-editing, and music-making on the Mac side.'
             )
           ),
@@ -67427,7 +67422,7 @@ var Setup = function Setup() {
                 'Samsung 850 EVO 1TB'
               )
             ),
-            _react2.default.createElement(_materialUi.TableRowColumn, null)
+            _react2.default.createElement(_materialUi.TableRowColumn, { className: 'gear-description' })
           ),
           _react2.default.createElement(
             _materialUi.TableRow,
@@ -67448,7 +67443,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'This card is a beast.  If you have the money, it\'s money well-spent.'
             )
           ),
@@ -67471,7 +67466,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'I love this little case.  It\'s not super flashy, but is compact and has the perfect amount of space for a Mini-ITX build with all the bells and whistles a gamer needs (including space for a long video card, a 240mm radiator, multiple 120mm case fans, side USB and headphone ports).'
             )
           ),
@@ -67494,8 +67489,75 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'EVGA SuperNOVA is pretty much the gold standard (heh heh) in PSUs.  I bought this back when I was rocking an i5 and a GTX 970, but it has just enough juice for my i7-7700k and the 1080ti.'
+            )
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      _materialUi.Card,
+      null,
+      _react2.default.createElement(
+        _materialUi.Table,
+        null,
+        _react2.default.createElement(
+          _materialUi.TableHeader,
+          { displaySelectAll: false },
+          _react2.default.createElement(
+            _materialUi.TableHeaderColumn,
+            null,
+            'Peripherals'
+          )
+        ),
+        _react2.default.createElement(
+          _materialUi.TableBody,
+          { displayRowCheckbox: false },
+          _react2.default.createElement(
+            _materialUi.TableRow,
+            null,
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              'Gaming Monitor'
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              _react2.default.createElement(
+                'a',
+                { target: '_blank', href: 'https://www.amazon.com/gp/product/B0099XBO5E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0099XBO5E&linkCode=as2&tag=c4u02-20&linkId=ccfede7028f92dd72c87588a81d1cc9e' },
+                'ASUS VE278H 27"'
+              )
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              { className: 'gear-description' },
+              '2ms response time. 1080p. I\'ve had this for a while, probably time to upgrade. Got it originally because it has some speakers.'
+            )
+          ),
+          _react2.default.createElement(
+            _materialUi.TableRow,
+            null,
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              'Secondary Monitor'
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              _react2.default.createElement(
+                'a',
+                { target: '_blank', href: 'https://www.amazon.com/gp/product/B0058UUR6E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0058UUR6E&linkCode=as2&tag=c4u02-20&linkId=33e6886bb18593d712b4b5a250670a64' },
+                'ASUS VS248H-P 24"'
+              )
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              { className: 'gear-description' },
+              '2ms response time. 1080p. No Speakers. I\'ve also had this for a while, gets the job done.'
             )
           ),
           _react2.default.createElement(
@@ -67517,7 +67579,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'Being a programmer, mechanical keyboards are my lifeblood.  I\'m a fan of Cherry MX Blues, but the noise is a little much for gaming.  Razer Greens are super similar but make a little less noise.  Perfect.'
             )
           ),
@@ -67540,15 +67602,61 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'I\'ve been rocking the DeathAdder since its inception in 2012.  It fits my hands perfectly.  I could do without the Chroma, lights are stupid, but the Razer Synapse app allows you to disable them.'
+            )
+          ),
+          _react2.default.createElement(
+            _materialUi.TableRow,
+            null,
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              'Mousepad'
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              _react2.default.createElement(
+                'a',
+                { target: '_blank', href: 'https://www.amazon.com/gp/product/B001719CMI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001719CMI&linkCode=as2&tag=c4u02-20&linkId=c63e48298daeb7438013dc14f8165e4b' },
+                'Rocketfish Double-Sided Gaming Mouse Pad '
+              )
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              { className: 'gear-description' },
+              'I have literally had this mousepad for 10+ years.  Can\'t even buy it anymore. They don\'t make shit like this anymore.'
+            )
+          ),
+          _react2.default.createElement(
+            _materialUi.TableRow,
+            null,
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              'Headphones'
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              null,
+              _react2.default.createElement(
+                'a',
+                { target: '_blank', href: 'https://www.amazon.com/gp/product/B0042A8CW2/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0042A8CW2&linkCode=as2&tag=c4u02-20&linkId=fcc30d110eaef470cf007b77b8f24d16' },
+                'Sennheiser HD 598 Headphones'
+              )
+            ),
+            _react2.default.createElement(
+              _materialUi.TableRowColumn,
+              { className: 'gear-description' },
+              'Solid, not much to say. Nice bass, good range, open-ear style.'
             )
           )
         )
       )
     ),
     _react2.default.createElement(
-      _materialUi.Paper,
+      _materialUi.Card,
       null,
       _react2.default.createElement(
         _materialUi.Table,
@@ -67584,8 +67692,8 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
-              'This Audio-Technica'
+              { className: 'gear-description' },
+              '...'
             )
           ),
           _react2.default.createElement(
@@ -67607,8 +67715,8 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
-              'Blah Blah Blah'
+              { className: 'gear-description' },
+              '...'
             )
           ),
           _react2.default.createElement(
@@ -67630,7 +67738,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'Of all my equipment, this is the biggest piece of shit.  It cost me about $15, and gets the job done.'
             )
           ),
@@ -67651,7 +67759,7 @@ var Setup = function Setup() {
                 'Logitech HD Pro Webcam C920'
               )
             ),
-            _react2.default.createElement(_materialUi.TableRowColumn, null)
+            _react2.default.createElement(_materialUi.TableRowColumn, { className: 'gear-description' })
           ),
           _react2.default.createElement(
             _materialUi.TableRow,
@@ -67672,7 +67780,7 @@ var Setup = function Setup() {
             ),
             _react2.default.createElement(
               _materialUi.TableRowColumn,
-              null,
+              { className: 'gear-description' },
               'This is a great capture card if you don\'t have an extra PCI-E slot, which I don\'t.  Otherwise go for an onboard card.'
             )
           )
