@@ -6,18 +6,11 @@ class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = { open: false }
-    this.handleToggleMenu = this.handleToggleMenu.bind(this)
   }
 
-  // TODO: USE A LAMBDA FUNCTION!!!
-  handleCloseMenu() {
-    this.setState({ open: false })
-  }
+  handleCloseMenu = () => this.setState({ open: false })
 
-  // TODO: USE A LAMBDA FUNCTION!!!!
-  handleToggleMenu() {
-   this.setState({ open: !this.state.open })
- }
+  handleToggleMenu = () => this.setState({ open: !this.state.open })
 
   render() {
     return (
