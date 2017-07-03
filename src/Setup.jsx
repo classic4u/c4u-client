@@ -14,6 +14,7 @@ import {
 } from 'material-ui'
 import React from 'react'
 
+// TODO: Links aren't showing the hover hand when you hover over them.
 const Setup = () => (
   <section>
     <Card>
