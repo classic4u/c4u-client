@@ -9,6 +9,11 @@ class Header extends React.Component {
     this.handleToggleMenu = this.handleToggleMenu.bind(this)
   }
 
+  // TODO: USE A LAMBDA FUNCTION!!!
+  handleCloseMenu() {
+    this.setState({ open: false })
+  }
+
   // TODO: USE A LAMBDA FUNCTION!!!!
   handleToggleMenu() {
    this.setState({ open: !this.state.open })
@@ -22,21 +27,25 @@ class Header extends React.Component {
           iconElementRight={<img src="logo.png" className="logo" alt="Logo" />}
           onLeftIconButtonTouchTap={this.handleToggleMenu}
         />
-        <Drawer open={this.state.open}>
+        <Drawer
+          docked={false}
+          open={this.state.open}
+          onRequestChange={(open) => this.setState({ open: open })}
+        >
           <MenuItem
             containerElement={<Link to="/" />}
             primaryText="Home"
-            onTouchTap={this.handleToggleMenu}
+            onTouchTap={this.handleCloseMenu}
           />
           <MenuItem
             containerElement={<Link to="/setup" />}
             primaryText="Stream Setup"
-            onTouchTap={this.handleToggleMenu}
+            onTouchTap={this.handleCloseMenu}
           />
           <MenuItem
             containerElement={<Link to="/bdo" />}
             primaryText="BDO"
-            onTouchTap={this.handleToggleMenu}
+            onTouchTap={this.handleCloseMenu}
           />
         </Drawer>
       </header>
