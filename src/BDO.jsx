@@ -75,6 +75,14 @@ const BDO = () => (
       <CardText expandable={true}>
         <Card>
           <CardHeader
+            title={<a target="_blank" href="http://bddatabase.net/us/">bddatabase.net</a>}
+          />
+          <CardText>
+            This site is a great resource for item and quest information. Pretty comprehensive.
+          </CardText>
+        </Card>
+        <Card>
+          <CardHeader
             title={<a target="_blank" href="http://bdoplanner.com/">bdoplanner.com</a>}
           />
           <CardText>
