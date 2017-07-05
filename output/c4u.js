@@ -67096,6 +67096,22 @@ var BDO = function BDO() {
           _react2.default.createElement(_materialUi.CardHeader, {
             title: _react2.default.createElement(
               'a',
+              { target: '_blank', href: 'http://bddatabase.net/us/' },
+              'bddatabase.net'
+            )
+          }),
+          _react2.default.createElement(
+            _materialUi.CardText,
+            null,
+            'This site is a great resource for item and quest information. Pretty comprehensive.'
+          )
+        ),
+        _react2.default.createElement(
+          _materialUi.Card,
+          null,
+          _react2.default.createElement(_materialUi.CardHeader, {
+            title: _react2.default.createElement(
+              'a',
               { target: '_blank', href: 'http://bdoplanner.com/' },
               'bdoplanner.com'
             )
