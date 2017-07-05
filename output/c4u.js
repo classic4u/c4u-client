@@ -67009,6 +67009,35 @@ var BDO = function BDO() {
       _materialUi.Card,
       null,
       _react2.default.createElement(_materialUi.CardHeader, {
+        title: 'Advanced',
+        actAsExpander: true,
+        showExpandableButton: true
+      }),
+      _react2.default.createElement(
+        _materialUi.CardText,
+        { expandable: true },
+        _react2.default.createElement(
+          _materialUi.Card,
+          null,
+          _react2.default.createElement(_materialUi.CardHeader, {
+            title: _react2.default.createElement(
+              'a',
+              { target: '_blank', href: 'https://docs.google.com/spreadsheets/d/1HE1Lr-7C2ChlCOsBc14z_hY5dkh9tC6tYZFqHgNGIbA/htmlview#' },
+              'Datamined DP Stats'
+            )
+          }),
+          _react2.default.createElement(
+            _materialUi.CardText,
+            null,
+            'This supposedly datamined table shows a breakdown of DP per piece of gear (how much evasion vs DR). The value of boss armor is clearly demonstrated in the increased evasion.'
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      _materialUi.Card,
+      null,
+      _react2.default.createElement(_materialUi.CardHeader, {
         title: 'Enhancing',
         actAsExpander: true,
         showExpandableButton: true
