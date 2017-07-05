@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
+import { logLinkClick, logPageView } from 'Analytics'
 import BDO from 'BDO.jsx'
 import Enhancing from 'Enhancing.jsx'
 import Home from 'Home.jsx'

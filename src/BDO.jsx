@@ -12,6 +12,7 @@ import {
 } from 'material-ui'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { OutboundLink } from 'react-ga'
 
 // TODO: Links don't appear as links when you hover over them?
 const BDO = () => (
@@ -21,7 +22,13 @@ const BDO = () => (
     </Card>
     <Card>
       <CardText>
-        <a target="_blank" href="http://bdoplanner.com/save/[[13],[11046,18,[15125,15035]],[11047,17,[15136,15136]],[11016,17,[15111,15111]],[11015,18,[15118,15116]],[[12027,0],[12007,2]],[[11817,2],[11816,2]],[12220,1],[11613,2],[11210,18,[15605,15026]],[14825,18],[11340,18,[15130,15130]],[-1],[-1,[-1]],[-1],[-1],[-1],[-1]]">Current Build</a>
+        <OutboundLink
+          eventLabel="Current Build"
+          to="http://bdoplanner.com/save/[[13],[11046,18,[15125,15035]],[11047,17,[15136,15136]],[11016,17,[15111,15111]],[11015,18,[15118,15116]],[[12027,0],[12007,2]],[[11817,2],[11816,2]],[12220,1],[11613,2],[11210,18,[15605,15026]],[14825,18],[11340,18,[15130,15130]],[-1],[-1,[-1]],[-1],[-1],[-1],[-1]]"
+          target="_blank"
+        >
+          Current Build
+        </OutboundLink>
       </CardText>
     </Card>
     <Card>
