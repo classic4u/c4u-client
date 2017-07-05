@@ -30,6 +30,23 @@ const BDO = () => (
     </Card>
     <Card>
       <CardHeader
+        title="Advanced"
+        actAsExpander={true}
+        showExpandableButton={true}
+      />
+      <CardText expandable={true}>
+        <Card>
+          <CardHeader
+            title={<a target="_blank" href="https://docs.google.com/spreadsheets/d/1HE1Lr-7C2ChlCOsBc14z_hY5dkh9tC6tYZFqHgNGIbA/htmlview#">Datamined DP Stats</a>}
+          />
+          <CardText>
+            This supposedly datamined table shows a breakdown of DP per piece of gear (how much evasion vs DR). The value of boss armor is clearly demonstrated in the increased evasion.
+          </CardText>
+        </Card>
+      </CardText>
+    </Card>
+    <Card>
+      <CardHeader
         title="Enhancing"
         actAsExpander={true}
         showExpandableButton={true}
