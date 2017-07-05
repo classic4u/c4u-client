@@ -4,10 +4,9 @@ const webpack = require('webpack');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'c4u.js',
+    filename: 'c4u.[hash].js',
     path: path.resolve(__dirname, 'output'),
     publicPath: 'wtf',
-    // publicPath: path.resolve(__dirname, '../', 'api', 'public'),
   },
   module: {
     rules: [
