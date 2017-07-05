@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -14,10 +15,6 @@ module.exports = {
         exclude: [/node_modules/],
         use: [{
           loader: 'babel-loader',
-          options: {
-            plugins: ['transform-class-properties'],
-            presets: ['react', 'es2015'],
-          }
         }],
       },
     ],
@@ -28,5 +25,15 @@ module.exports = {
       'src'
     ]
   },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false,
+      },
+      output: {
+        comments: false,
+      },
+    }),
+  ],
   devtool: 'source-map',
 };
