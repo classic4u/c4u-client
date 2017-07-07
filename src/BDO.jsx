@@ -11,7 +11,7 @@ import {
   TableRowColumn
 } from 'material-ui'
 import React from 'react'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 // TODO: Links don't appear as links when you hover over them?
 const BDO = () => (
@@ -32,7 +32,7 @@ const BDO = () => (
       <CardText>
         <Card>
           <CardHeader
-            title={"The Classic Guide to Enhancing & Failstacking"}
+            title={<Link to="/bdo/enhancing">The Classic Guide to Enhancing & Failstacking</Link>}
           />
           <CardText>
             Learn how to enhance & failstack! The basics.

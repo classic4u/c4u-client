@@ -28,7 +28,7 @@ const Enhancing = () => (
                   <TableRow>
                     <TableRowColumn style={ { width: '60px' } }>7/7/2017</TableRowColumn>
                     <TableRowColumn style={ { width: '50px' } }>v0.0.0</TableRowColumn>
-                    <TableRowColumn style={ { width: '210px' } }>Initial Release</TableRowColumn>
+                    <TableRowColumn style={ { width: '210px' } }>Alpha Release</TableRowColumn>
                   </TableRow>
                 </TableBody>
               </Table>
@@ -36,8 +36,8 @@ const Enhancing = () => (
             <p>
               <strong>Hi folks. </strong>
               I'm classic4u.
-              I stream over on <a target="_blank" href="https://twitch.tv/classic4u">twitch.tv</a>.
-              I've baked up this guide to be a clear, thorough, yet concise introduction to enhancing & failstacking.
+              I stream over at <a target="_blank" href="https://twitch.tv/classic4u">twitch.tv/classic4u</a>.
+              I've baked up this guide to be a clear, thorough, yet concise (as possible) introduction to enhancing & failstacking.
               Please do reach out to me if you have any sort of feedback whatsoever.
             </p>
           </CardText>
@@ -55,115 +55,19 @@ const Enhancing = () => (
                   In BDO, most stat gains do not come from levelling up or getting new gear, but from <strong>enhancing</strong>.
                 </p>
                 <p>
-                  Enhancing is how you raise your Attack Power (AP), Awakened Attack Power (AAP), and Defense Power (DP), as well as your secondary stats (accuracy, evasion, etc.)
+                  Enhancing is how you raise your Attack Power (<strong>AP</strong>), Awakened Attack Power (<strong>AAP</strong>), and Defense Power (<strong>DP</strong>), as well as your secondary stats (accuracy, evasion, etc.).
                 </p>
                 <p>
-                  To demonstrate the <strong>gainz</strong>, here's a chart breaking down a Rosar Gauntlet's AP all the way from +0 to PEN (Note that gear also has hidden stats, such as accuracy, that also go up as you enhance):
+                  For example, a Rosar Gauntlet goes from <strong>17 ~ 22 AP</strong> at <strong>+0</strong>, to <strong>69 ~ 74 AP</strong> at <strong>+15</strong>, to <strong>97 ~ 102</strong> at <strong>TRI</strong>!
                 </p>
-                <Paper style={ { marginBottom: '30px', width: '220px' } }>
-                  <Table selectable={false} style={ { width: '220px' } }>
-                    <TableHeader displaySelectAll={false} style={ { width: '220px' }}>
-                      <TableRow>
-                        <TableHeaderColumn>
-                          Rosar Gauntlet AP by Enhancement Level
-                        </TableHeaderColumn>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody displayRowCheckbox={false}>
-                      <TableRow>
-                        <TableRowColumn>+0</TableRowColumn>
-                        <TableRowColumn>17 ~ 22</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+1</TableRowColumn>
-                        <TableRowColumn>21 ~ 26</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+2</TableRowColumn>
-                        <TableRowColumn>24 ~ 29</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+3</TableRowColumn>
-                        <TableRowColumn>27 ~ 32</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+4</TableRowColumn>
-                        <TableRowColumn>29 ~ 34</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+5</TableRowColumn>
-                        <TableRowColumn>31 ~ 36</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+6</TableRowColumn>
-                        <TableRowColumn>34 ~ 39</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+7</TableRowColumn>
-                        <TableRowColumn>37 ~ 42</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+8</TableRowColumn>
-                        <TableRowColumn>41 ~ 46</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+9</TableRowColumn>
-                        <TableRowColumn>45 ~ 50</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+10</TableRowColumn>
-                        <TableRowColumn>49 ~ 54</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+11</TableRowColumn>
-                        <TableRowColumn>53 ~ 58</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+12</TableRowColumn>
-                        <TableRowColumn>57 ~ 62</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+13</TableRowColumn>
-                        <TableRowColumn>61 ~ 66</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+14</TableRowColumn>
-                        <TableRowColumn>65 ~ 70</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>+15</TableRowColumn>
-                        <TableRowColumn>69 ~ 74</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>PRI (+16)</TableRowColumn>
-                        <TableRowColumn>77 ~ 82</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>DUO (+17)</TableRowColumn>
-                        <TableRowColumn>85 ~ 90</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>TRI (+18)</TableRowColumn>
-                        <TableRowColumn>97 ~ 102</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>TET (+19)</TableRowColumn>
-                        <TableRowColumn>105 ~ 110</TableRowColumn>
-                      </TableRow>
-                      <TableRow>
-                        <TableRowColumn>PEN (+20)</TableRowColumn>
-                        <TableRowColumn>113 ~ 118</TableRowColumn>
-                      </TableRow>
-
-                    </TableBody>
-                  </Table>
-                </Paper>
-                <p>I use <a target="_blank" href="http://bdoplanner.com">bdoplanner.com</a> to test out different builds and enhancement levels.</p>
+                <p>
+                  I use <a target="_blank" href="http://bdoplanner.com">bdoplanner.com</a> and <a target="_blank" href="http://bddatabase.net">bddatabase.net</a> to test out different builds and enhancement levels.
+                </p>
               </CardText>
             </Card>
           </CardText>
         </Card>
-            <Card>
+        <Card>
           <CardHeader
             title="How to Enhance"
             actAsExpander={true}
@@ -173,13 +77,67 @@ const Enhancing = () => (
             <Card>
               <CardText>
                 <p>
-                  You'll need Black Stone (Armor) or Black Stone (Weapon) to enhance armor and weapons up to +15, respectively. Enhancing accessories is covered in the "Enhancing Accessories" section.
+                  You'll need <strong>Black Stone (Armor)</strong> or <strong>Black Stone (Weapon)</strong> to enhance armor and weapons up to <strong>+15</strong>, respectively. Enhancing accessories is covered in the "Enhancing Accessories" section.
                 </p>
                 <p>
-                  To enhance, get to the black spirit enhancing menu: Hit "," or click on the Black Spirit, click "Enhance"; alternatively you can right click a black stone to go straight to the enhancing menu.
+                  To enhance, get to the black spirit enhancing menu: Hit "," or click on the Black Spirit, click "Enhance";
+                  alternatively you can right click a black stone to go straight to the enhancing menu.
                 </p>
                 <p>
-                  It is safe to enhance armor up to +5 enhancement level, and weapons up to +7. After that, each enhancement attempt has a chance to fail.  If you fail an enhancement attempt, you lose the stone, and the max durability of your equipment goes down.
+                  It is safe to enhance armor up to <strong>+5</strong> enhancement level, and weapons up to <strong>+7</strong>.
+                  After that, each enhancement attempt has a chance to fail.  If you fail an enhancement attempt, you lose the stone, and the max durability of your equipment goes down.
+                </p>
+                <p>
+                  Once the maximum durability of an item drops below 20 durability, it can no longer be enhanced. It needs to be <strong>repaired</strong>
+                </p>
+              </CardText>
+            </Card>
+          </CardText>
+        </Card>
+        <Card>
+          <CardHeader
+            title="Repairing Max Durability"
+            actAsExpander={true}
+            showExpandableButton={true}
+          />
+          <CardText expandable={true}>
+            <Card>
+              <CardText>
+                <p>
+                  As you start getting to higher enhancement levels, you will fail more often.
+                  At some point, you are going to need to repair the maximum durability of your items.
+                </p>
+                <p>
+                  To repair max durability, go to the blacksmith, and click "Repair". Then click "Recover Maximum Durability".
+                </p>
+                <p>
+                  Right click the item you are repairing to stick it on the left side of the UI.
+                </p>
+                <p>
+                  Right click the item you are using to repair to stick it on the right side of the UI, then hit recover max durability.
+                  The "continuous" button will do the same repair with as many reagents as you have.
+                </p>
+                <p>
+                  There are exactly two items that can be used to repair any given item:
+                </p>
+                <ul>
+                  <li>
+                    A +0 version of the item you are repairing.
+                    For example, a PRI Grunil Gloves can be repaired with a Grunil Gloves.
+                    Using a base item will repair 10 durability.
+                  </li>
+                  <li>
+                    A Memory Fragment. Memory fragments repair an amount based on the rarity (white, green, blue, yellow) of item:
+                    5 max durability for green, 2 max durability for blue, and 1 max durability for yellow.
+                  </li>
+                </ul>
+                <p>
+                  For all green gear, it is always cheaper to use the base item to repair.
+                  For blue and yellow items, it is always cheaper (and easier) to use memory fragments to repair.
+                </p>
+                <p>
+                  The checkbox for "artisan's memory" allows you to use the p2w item Artisan's Memory with your repair.
+                  Artisan's Memories are covered in a below section.
                 </p>
               </CardText>
             </Card>
@@ -194,41 +152,69 @@ const Enhancing = () => (
           <CardText expandable={true}>
             <Card>
               <CardText>
-                <ul>
-                  <li>
-                    As noted above, enhancements begin to have a chance to fail as the item goes up in enhancement level. Once you fail an enhancement, notice that the "Enhancement Chance" goes up, say, from +0 to +1.
-                  </li>
-                  <li>
-                    Each "Enhancement Chance" + is known as a failstack (FS). Each failstack you have increases your probability of successfully enhancing the item.
-                  </li>
-                </ul>
-
+                <p>
+                  As noted above, enhancements begin to have a chance to fail as the item goes up in enhancement level. Once you fail an enhancement, notice that the <strong>Enhancement Chance</strong> goes up, say, from +0 to +1.
+                </p>
+                <p>
+                  Each <strong>Enhancement Chance</strong> + is known as a failstack (FS). Each failstack you have increases your probability of successfully enhancing the item.
+                </p>
                 <p>
                   Exactly how much, no one really knows-
-                  Most of the math I have seen is based off this supposedly datamined enhancement chart from our Korean masters:
-                  <img src="kr-failstacking-chart.png" style={{maxWidth: "100%", height: 'auto'}}/>
+                  Most of the math I have seen is based off this supposedly datamined enhancement chart from our Korean Overlords:
                 </p>
-
+                <Card>
+                  <CardHeader
+                    title="Korean Enhancing Success Rate Chart"
+                    actAsExpander={true}
+                    showExpandableButton={true}
+                  />
+                  <CardText expandable={true}>
+                    <img src="kr-failstacking-chart.png" style={{maxWidth: "100%", height: 'auto'}}/>
+                  </CardText>
+                </Card>
                 <p>
-                  This <a target="_blank" src="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Table</a>
-                  is what I use for my day to day failstacking.
+                  The <a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Table</a>
+                   is what I use for my day to day failstacking.
                 </p>
-
                 <p>
-                  If you're interested in the math behind it, read the aside and follow the link. Otherwise, just be content that a smart person has used mathematics to determine the optimal failstack count for each enhancement attempt.
+                  If you're interested in the math behind it, read the aside and follow the link.
+                  Otherwise, just be content that a smart person has used mathematics to determine the optimal failstack count for each enhancement attempt.
                 </p>
-
-                <p>
-                  A small aside:
-                  This chart is based on the probabilities listed in the Korean chart, as well as market prices, and a statistical concept known as "expected value". In plain English, the creator of the chart used math to ask the following question: If I enhance an item at 0 failstacks, how many times can I expect to fail? How much does this cost me in black stones and durability repairs? If I enhance an item at 1 failstack, how many times can I expect to fail? How much does this cost me in failstack cost, black stones, and durability repairs? So on, and so forth - Calculate the "expected value" for every possible failstack level, and then determine the optimal failstack level to have the smallest expected cost.
-                </p>
-
+                <Card>
+                  <CardHeader
+                    title="ELI5 aside on probability:"
+                    actAsExpander={true}
+                    showExpandableButton={true}
+                  />
+                  <CardText expandable={true}>
+                    <p>
+                      This chart is based on the probabilities listed in the Korean chart, as well as market prices, and a statistical concept known as "expected value".
+                    </p>
+                    <p>
+                      In plain English, the creator of the chart used math to ask the following question:
+                    </p>
+                    <p>
+                      If I enhance an item at 0 failstacks, how many times can I expect to fail?
+                      How much does this cost me in black stones and durability repairs?
+                    </p>
+                    <p>
+                      If I enhance an item at 1 failstack, how many times can I expect to fail?
+                      How much does this cost me in failstack cost, black stones, and durability repairs?
+                    </p>
+                    <p>
+                      So on, and so forth - Calculate the "expected value" for every possible failstack level, and then determine the optimal failstack level (the one with the smallest expected cost).
+                    </p>
+                    <p>
+                      The creator of the chart <a target="_blank" href="http://forum.blackdesertonline.com/index.php?/topic/115179-enhancement-failstack-costsstrategies/">posted on the old forums</a> and you can follow his links to more posts on math, or download the actual code.
+                    </p>
+                  </CardText>
+                </Card>
                 <p>
                   Use this as a guideline, rather than a strict rule - Going +/- some failstacks is OK. Do take note that your max success rate is at 25 failstacks for +14/+15/PRI, 35 for DUO, and 44 for TRI.
                 </p>
-
-
-                OK, that makes sense.  So, how do I actually build failstacks intentionally?
+                <p>
+                  OK, that makes sense.  So, how do I actually build failstacks intentionally?
+                </p>
               </CardText>
             </Card>
           </CardText>
@@ -242,13 +228,27 @@ const Enhancing = () => (
           <CardText expandable={true}>
             <Card>
               <CardText>
-                My method for failstacking is simple:
-                - Build a Reblath +14 piece of armor by buying one from the Blacksmith in Velia and enhancing it (if you build any significant failstacks while doing this, USE THE FAILSTACKS!)
-                - Use Reblath +14 Armor to build up to 15 failstacks.
-                - Use Grunil PRI armor to build from 15 to 30 failstacks
-                - Use Grunil DUO armor to build 30+ failstacks.
+                <p>
+                  My method for failstacking is simple:
+                </p>
+                <ul>
+                  <li>
+                    Build a Reblath +14 piece of armor by buying one from the Blacksmith in Velia and enhancing it (if you build any significant failstacks while doing this, USE THE FAILSTACKS!)
+                  </li>
+                  <li>
+                    Use Reblath +14 Armor to build up to 15 failstacks.
+                  </li>
+                  <li>
+                    Use Grunil PRI armor to build from 15 to 30 failstacks
+                  </li>
+                  <li>
+                    Use Grunil DUO armor to build 30+ failstacks.
+                  </li>
+                </ul>
+                <p>
+                  This chart from Incendar lays out the cheapest enhancements to your desired failstacking level: http://www.incendar.com/failstackoptimizer.php
+                </p>
 
-                This chart from incendar lays out the cheapest enhancements to your desired failstacking level: http://www.incendar.com/failstackoptimizer.php
 
                 Downgrading:
                 - You will succeed your failstack enhancements from time to time (Reblath will go from +14 to +15, Grunil will go to DUO or to TRI sometimes).
@@ -263,14 +263,13 @@ const Enhancing = () => (
                 - BE DISCIPLINED ABOUT YOUR FAILSTACKS. If you go way above the recommended failstacks for a given enhancement, save that failstack for another enhancement attempt.  The definition of "way above" varies - Generally, I don't go above the max enhancement for a given level (25 for PRI, 35 for DUO, 44 for TRI).
               </CardText>
             </Card>
-
           </CardText>
         </Card>
-
-
         <Card>
           <CardText>
-            At this point, you've made it through the basics. Read on to learn about some other aspects of enhancing & failstacking.
+            <p>
+              At this point, you've made it through the basics. Read on to learn about some other aspects of enhancing & failstacking.
+            </p>
           </CardText>
         </Card>
         <Card>
@@ -280,11 +279,23 @@ const Enhancing = () => (
             showExpandableButton={true}
           />
           <CardText expandable={true}>
-            The mechanics for enhancing accessories are much the same as enhancing other gear, with two key differences.
-            - Enhancing accessories requires a base version of the accessory you are enhancing
-            - Failed enhancement attempts will always destroy both the item you are trying to enhance, as well as the reagent (the base copy of the accessory).
-            - Because of this failure rate, I often use cron stones for accessory enhancement. Cron stones protect your target item from getting destroyed upon a failed enhancement.
-
+            <p>
+              The mechanics for enhancing accessories are much the same as enhancing other gear, with a few key differences:
+            </p>
+            <ul>
+              <li>
+                Enhancing accessories requires a base version of the accessory you are enhancing
+              </li>
+              <li>
+                Failed enhancement attempts will always destroy both the item you are trying to enhance, as well as the reagent (the base copy of the accessory).
+              </li>
+              <li>
+                Accessories never have to be repaired.
+              </li>
+            </ul>
+            <p>
+              Because of this failure rate, I often use cron stones for accessory enhancement. Cron stones protect your target item from getting destroyed upon a failed enhancement.
+            </p>
           </CardText>
         </Card>
         <Card>
@@ -294,30 +305,60 @@ const Enhancing = () => (
             showExpandableButton={true}
           />
           <CardText expandable={true}>
-            Enhancing past +15 is much the same as enhancing up to +15, with two key differences:
-            - It uses more expenses Concentrated Stones, which can be crafted by melting a Shard with two Black Stones.
-            - If you fail attempting TRI (+18), TET (+19), or PEN (+20), your item will actually downgrade (A failed DUO to TRI attempt will put the item at PRI). Ouch!
+            <p>Enhancing past +15 is much the same as enhancing up to +15, with two key differences:</p>
+            <ul>
+              <li>
+                It uses more expenses Concentrated Stones (~2.25mil for Armor, ~4mil for Weapon), which can be crafted by melting a Shard with two Black Stones.
+              </li>
+              <li>
+                If you fail attempting TRI (+18), TET (+19), or PEN (+20), your item will actually downgrade (A failed DUO to TRI attempt will put the item at PRI). Ouch!
+              </li>
+            </ul>
           </CardText>
         </Card>
         <Card>
           <CardHeader
-            title="How do I get Enhancing Resources?"
+            title="Where do I get Enhancing Resources?"
             actAsExpander={true}
             showExpandableButton={true}
           />
           <CardText expandable={true}>
-            Black Stones:
-            - Off the Marketplace (Can be a pain in the ass)
-            - Grinding (There are often black stone drop events)
-            - Turning in hunter's seals (You get these from quests, and important Ancient Relic Scroll runs)
-
-            Concentrated Stones:
-            - Off the Marketplace (usually a pain in the ass)
-            - Drops from Gathering and Farming (Life Skilling)
-
-            Memory Fragments:
-            - Off the Marketplace (often available, but expensive)
-            - Ancient Relic Scroll groups
+            <p>
+              Black Stones:
+            </p>
+            <ul>
+              <li>
+                Off the Marketplace (Can be a pain in the ass)
+              </li>
+              <li>
+                Grinding (There are often black stone drop events)
+              </li>
+              <li>
+                Turning in hunter's seals (You get these primarily from doing Ancient Relic Crystal Scrolls, much moneyz from those)
+              </li>
+            </ul>
+            <p>
+              Concentrated Stones:
+            </p>
+            <ul>
+              <li>
+                Off the Marketplace (usually a pain in the ass)
+              </li>
+              <li>
+                Drops from Gathering and Farming (Life Skilling)
+              </li>
+            </ul>
+            <p>
+              Memory Fragments:
+            </p>
+            <ul>
+              <li>
+                Off the Marketplace (often available, but expensive)
+              </li>
+              <li>
+                Ancient Relic Scroll groups
+              </li>
+            </ul>
           </CardText>
         </Card>
         <Card>
@@ -327,7 +368,16 @@ const Enhancing = () => (
             showExpandableButton={true}
           />
           <CardText expandable={true}>
-            - You'll see next to the "Enhancement button" a "Force" option. Forcing an enhancement guarantees success, but costs many more stones than a normal enhancement attempt would, and also costs a lot of durability. I never Force enhance.
+            <p>
+              You'll see next to the "Enhancement button" a "Force" option.
+              Forcing an enhancement guarantees success, but costs many more stones than a normal enhancement attempt would, and also costs a lot of max durability.
+            </p>
+            <p>
+              I never Force enhance.
+            </p>
+            <p>
+              If you can't take the heat, get out of the kitchen.
+            </p>
           </CardText>
         </Card>
         <Card>
@@ -388,8 +438,13 @@ const Enhancing = () => (
               <CardText>
                 <ul>
                   <li>
-                    <a target="_blank" href="">BDO Enhancement Table</a>
-                    <a target="_blank" href="">Incendar's Failstacking Optimization Guide</a>
+                    <a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Table</a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.incendar.com/failstackoptimizer.php">Incendar's Failstack Optimizer</a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://bddatabase.net">bddatabase.net</a>
                   </li>
                 </ul>
               </CardText>
