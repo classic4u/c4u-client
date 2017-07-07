@@ -2,11 +2,11 @@ import { BottomNavigation, BottomNavigationItem } from 'material-ui/BottomNaviga
 import FontIcon from 'material-ui/FontIcon'
 import React from 'react'
 
-const twitterIcon = <FontIcon>Twitter</FontIcon>
-const twitchIcon = <FontIcon>Twitch</FontIcon>
+const twitterIcon = <FontIcon className="fa fa-twitter" />
+const twitchIcon = <FontIcon className="fa fa-twitch" />
 const discordIcon = <FontIcon>Discord</FontIcon>
-const steamIcon = <FontIcon>Steam</FontIcon>
-const gitHubIcon = <FontIcon>GitHub</FontIcon>
+const steamIcon = <FontIcon className="fa fa-steam" />
+const gitHubIcon = <FontIcon className="fa fa-github" />
 
 const Footer = () => (
   <BottomNavigation>
