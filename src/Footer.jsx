@@ -4,6 +4,7 @@ import React from 'react'
 
 const twitterIcon = <FontIcon>Twitter</FontIcon>
 const twitchIcon = <FontIcon>Twitch</FontIcon>
+const discordIcon = <FontIcon>Discord</FontIcon>
 const steamIcon = <FontIcon>Steam</FontIcon>
 const gitHubIcon = <FontIcon>GitHub</FontIcon>
 
@@ -16,6 +17,10 @@ const Footer = () => (
     <BottomNavigationItem
       icon={twitchIcon}
       onTouchTap={() => window.open('https://www.twitch.tv/classic4u')}
+    />
+    <BottomNavigationItem
+      icon={discordIcon}
+      onTouchTap={() => window.open('https://discord.gg/D22h5Mv')}
     />
     <BottomNavigationItem
       icon={steamIcon}
