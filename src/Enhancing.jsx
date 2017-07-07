@@ -2,7 +2,15 @@ import {
   Card,
   CardHeader,
   CardText,
-  CardTitle
+  CardTitle,
+  Divider,
+  Paper,
+  Table,
+  TableBody,
+  TableHeader,
+  TableHeaderColumn,
+  TableRow,
+  TableRowColumn,
 } from 'material-ui'
 import React from 'react'
 
@@ -12,12 +20,27 @@ const Enhancing = () => (
     <Card>
       <CardTitle title={"The Classic Guide to Enhancing & Failstacking"} />
       <CardText>
-    Hi folks. I'm classic4u. I stream over on twitch.tv . I've baked up this guide to be a clear, thorough, yet concise introduction to enhancing & failstacking, targeted at newer players to the game. This guide covers the basics and doesn't get into enhancing TET+. Without further ado:
-
-Release Notes:
-v.0.0 7/7/2017 - Release
-
-
+        <Card>
+          <CardText>
+            <Paper style={ { marginBottom: '30px', width: '320px' } }>
+              <Table selectable={false} style={ { width: '320px' } }>
+                <TableBody displayRowCheckbox={false}>
+                  <TableRow>
+                    <TableRowColumn style={ { width: '60px' } }>7/7/2017</TableRowColumn>
+                    <TableRowColumn style={ { width: '50px' } }>v0.0.0</TableRowColumn>
+                    <TableRowColumn style={ { width: '210px' } }>Initial Release</TableRowColumn>
+                  </TableRow>
+                </TableBody>
+              </Table>
+            </Paper>
+            <p>
+              <strong>Hi folks. </strong>
+              I'm classic4u.
+              I stream over on <a target="_blank" href="https://twitch.tv/classic4u">twitch.tv</a>.
+              I've baked up this guide to be a clear, thorough, yet concise introduction to enhancing & failstacking.
+            </p>
+          </CardText>
+        </Card>
         <Card>
           <CardHeader
             title="Why Enhance?"
@@ -27,7 +50,7 @@ v.0.0 7/7/2017 - Release
           <CardText expandable={true}>
             <Card>
               <CardText>
-                Enhancing is the primary means of raising your AP, AAP, DP, and other stats in the game. Enhancing can take your armor/weapons from +0 to PEN (+20) enhancement level.
+                <strong>Enhancing</strong> is the primary means of raising your AP, AAP, DP, and other stats in the game. Enhancing can take your armor/weapons from +0 to PEN (+20) enhancement level.
 
                 Here's a chart breaking down a weapon's stats all the way from +0 to PEN:
               </CardText>
