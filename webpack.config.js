@@ -1,13 +1,8 @@
-const path = require('path');
-const webpack = require('webpack');
+const path = require('path')
+const webpack = require('webpack')
 
-module.exports = {
+config = {
   entry: './src/index.js',
-  output: {
-    filename: 'c4u.[hash].js',
-    path: path.resolve(__dirname, 'output'),
-    publicPath: 'wtf',
-  },
   module: {
     rules: [
       { test: /\.js$|\.jsx$/,
@@ -24,6 +19,30 @@ module.exports = {
       'src'
     ]
   },
+}
+
+console.log(process.env)
+
+devConfig = {
+  devtool: 'source-map',
+  output: {
+    filename: 'c4u.js',
+    path: path.resolve(__dirname, 'output'),
+    publicPath: 'wtf',
+  },
+}
+
+// TODO: There must be a better way!
+if (process.env.npm_lifecycle_event === 'webpack-dev-server') {
+  Object.assign(config, devConfig)
+}
+
+prodConfig = {
+  output: {
+    filename: 'c4u.[hash].js',
+    path: path.resolve(__dirname, 'output'),
+    publicPath: 'wtf',
+  },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compress: {
@@ -34,5 +53,11 @@ module.exports = {
       },
     }),
   ],
-  devtool: 'source-map',
-};
+}
+
+// TODO: There must be a better way!
+if (process.env.npm_lifecycle_event === 'webpack') {
+  Object.assign(config, prodConfig)
+}
+
+module.exports = config
