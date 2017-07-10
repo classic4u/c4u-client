@@ -55,10 +55,10 @@ const Enhancing = () => (
                   In BDO, most stat gains do not come from levelling up or getting new gear, but from <strong>enhancing</strong>.
                 </p>
                 <p>
-                  Enhancing is how you raise your Attack Power (<strong>AP</strong>), Awakened Attack Power (<strong>AAP</strong>), and Defense Power (<strong>DP</strong>), as well as your secondary stats (accuracy, evasion, etc.).
+                  Enhancing is how you raise your Attack Power (<strong>AP</strong>), Awakened Attack Power (<strong>AAP</strong>), and Defense Power (<strong>DP</strong>), as well as your secondary stats (<strong>Accuracy</strong>, <strong>evasion</strong>, etc.).
                 </p>
                 <p>
-                  For example, a Rosar Gauntlet goes from <strong>17 ~ 22 AP</strong> at <strong>+0</strong>, to <strong>69 ~ 74 AP</strong> at <strong>+15</strong>, to <strong>97 ~ 102</strong> at <strong>TRI</strong>!
+                  For example, a <strong>Rosar's Gauntlet</strong> goes from <strong>17 ~ 22 AP</strong> at <strong>+0</strong>, to <strong>69 ~ 74 AP</strong> at <strong>+15</strong>, to <strong>97 ~ 102</strong> at <strong>TRI</strong>!
                 </p>
                 <p>
                   I use <a target="_blank" href="http://bdoplanner.com">bdoplanner.com</a> and <a target="_blank" href="http://bddatabase.net">bddatabase.net</a> to test out different builds and enhancement levels.
@@ -88,7 +88,7 @@ const Enhancing = () => (
                   After that, each enhancement attempt has a chance to fail.  If you fail an enhancement attempt, you lose the stone, and the max durability of your equipment goes down.
                 </p>
                 <p>
-                  Once the maximum durability of an item drops below 20 durability, it can no longer be enhanced. It needs to be <strong>repaired</strong>
+                  Once the maximum durability of an item drops below 20 durability, it can no longer be enhanced. It needs to be <strong>repaired</strong>.
                 </p>
               </CardText>
             </Card>
@@ -127,16 +127,19 @@ const Enhancing = () => (
                     Using a base item will repair 10 durability.
                   </li>
                   <li>
-                    A Memory Fragment. Memory fragments repair an amount based on the rarity (white, green, blue, yellow) of item:
+                    A <strong>Memory Fragment</strong>. Memory fragments repair an amount based on the rarity (white, green, blue, yellow) of item:
                     5 max durability for green, 2 max durability for blue, and 1 max durability for yellow.
                   </li>
                 </ul>
                 <p>
-                  For all green gear, it is always cheaper to use the base item to repair.
-                  For blue and yellow items, it is always cheaper (and easier) to use memory fragments to repair.
+                  <i>For all green gear, it is always cheaper to use the base item to repair.
+                  For blue and yellow items, it is always cheaper to use memory fragments to repair.</i>
                 </p>
                 <p>
-                  The checkbox for "artisan's memory" allows you to use the p2w item Artisan's Memory with your repair.
+                  <strong>Ultimate</strong> versions of green weapons should still be repaired by using the base version of an item. Note that if you upgrade a blue Awakened weapon to <strong>Ultimate</strong>, a memory fragment will repair 1 durability, since the weapon is now a yellow weapon.
+                </p>
+                <p>
+                  The checkbox for "artisan's memory" allows you to use the p2w item <strong>Artisan's Memory</strong> with your repair.
                   Artisan's Memories are covered in a below section.
                 </p>
               </CardText>
@@ -173,8 +176,7 @@ const Enhancing = () => (
                   </CardText>
                 </Card>
                 <p>
-                  The <a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Table</a>
-                   is what I use for my day to day failstacking.
+                  The <a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Table</a> is what I use for my day to day failstacking.
                 </p>
                 <p>
                   If you're interested in the math behind it, read the aside and follow the link.
@@ -210,7 +212,7 @@ const Enhancing = () => (
                   </CardText>
                 </Card>
                 <p>
-                  Use this as a guideline, rather than a strict rule - Going +/- some failstacks is OK. Do take note that your max success rate is at 25 failstacks for +14/+15/PRI, 35 for DUO, and 44 for TRI.
+                  Use the table as a guideline, rather than a strict rule - Going +/- some failstacks is OK. Do take note that your max success rate is at 25 failstacks for +14/+15/PRI, 35 for <strong>DUO</strong>, and 44 for TRI. I never go above these cutoffs.
                 </p>
                 <p>
                   OK, that makes sense.  So, how do I actually build failstacks intentionally?
@@ -250,17 +252,55 @@ const Enhancing = () => (
                 </p>
 
 
-                Downgrading:
-                - You will succeed your failstack enhancements from time to time (Reblath will go from +14 to +15, Grunil will go to DUO or to TRI sometimes).
-                - I will usually sell Grunil if it gets to TRI, and save DUO for more failstacking.
+                <p>Downgrading:</p>
+                <ul>
+                  <li>
+                    You will succeed your failstack enhancements from time to time (Reblath will go from +14 to +15, Grunil will go to DUO or to TRI sometimes).
+                  </li>
+                  <li>
+                    I will usually sell Grunil if it gets to TRI, and save DUO for more failstacking.
+                  </li>
+                  <li>
+                    For Reblath, I use the negative karma downgrading method to go from +15 back to +14 so i can reuse the Reblath.
+                  </li>
+                </ul>
+                <Card>
+                  <CardHeader
+                    title="Downgrading with a Negative Karma Alt"
+                    actAsExpander={true}
+                    showExpandableButton={true}
+                  />
+                  <CardText expandable={true}>
+                    <p>When your character has negative karma, your equipment has a chance to downgrade on every death.</p>
+                    <p>The idea here is to create a low level alt with negative karma who can die over and over again, to easily downgrade Reblath.</p>
+                    <p>The alt should be less than level 10 so it can respawn immediately wherever it dies; it should have more than -500 karma so guards in town will murder it.</p>
 
+                    <p>Creating the negative karma alt:</p>
+                    <ol>
+                      <li>Make an alt, level it to 6.</li>
+                      <li>
+                        Use <a target="_blank" href="http://www.somethinglovely.net/bdo/#horses">http://www.somethinglovely.net</a> to find a place where horses spawn.
+                      </li>
+                      <li>
+                        Kill two horses, one at a time, by running them into a rock and beating them repeatedly. You kill two so your karma is negative to the point that the guards in towns will attack you.
+                      </li>
+                    </ol>
+                    <p>And that's it. Now, you can put your +15 Reblath gear on your negative karma alt, and suicide to guards until the item downgrades.</p>
+                  </CardText>
+                </Card>
+                <p>A couple notes:</p>
+                <ul>
+                  <li>
+                    If you have multiple items you are trying  to enhance, use the less enhanced one to failstack for the higher one: For example, enhancing a PRI Grunil helmet, and a PRI Bheg's Gloves (Boss Armor). Start at the recommended 7 FS on the PRI Grunil. If you get up around the recommended 19 FS for attempting Bheg's Glove DUO, STOP enhancing your Grunil, and start enhancing the Bheg's Gloves.  DONT OVER CLICK! FAILSTACKS ARE VERY VALUABLE AND DIFFICULT TO BUILD.
+                  </li>
+                </ul>
 
-                A couple notes:
-
-                - If you have multiple items you are trying  to enhance, use the less enhanced one to failstack for the higher one: For example, enhancing a PRI Grunil helmet, and a PRI Bheg's Gloves (Boss Armor). Start at the recommended 7 FS on the PRI Grunil. If you get up around the recommended 19 FS for attempting Bheg's Glove DUO, STOP enhancing your Grunil, and start enhancing the Bheg's Gloves.  DONT OVER CLICK! FAILSTACKS ARE VERY VALUABLE AND DIFFICULT TO BUILD.
-
-                Let me hammer home that point:
-                - BE DISCIPLINED ABOUT YOUR FAILSTACKS. If you go way above the recommended failstacks for a given enhancement, save that failstack for another enhancement attempt.  The definition of "way above" varies - Generally, I don't go above the max enhancement for a given level (25 for PRI, 35 for DUO, 44 for TRI).
+                <p>Let me hammer home that point:</p>
+                <ul>
+                  <li>
+                    BE DISCIPLINED ABOUT YOUR FAILSTACKS. If you go way above the recommended failstacks for a given enhancement, save that failstack for another enhancement attempt.  The definition of "way above" varies - Generally, I don't go above the max failstack bonus (<strong>+25</strong> for <strong>PRI</strong>, <strong>+35</strong> for <strong>DUO</strong>, <strong>+44</strong> for <strong>TRI</strong>).
+                  </li>
+                </ul>
               </CardText>
             </Card>
           </CardText>
@@ -294,7 +334,7 @@ const Enhancing = () => (
               </li>
             </ul>
             <p>
-              Because of this failure rate, I often use cron stones for accessory enhancement. Cron stones protect your target item from getting destroyed upon a failed enhancement.
+              Because of the pain of failing accessory enhancements, I often use <strong>Cron Stone</strong>s for PRI/DUO enhancement attempts. <strong>Cron Stone</strong>s protect your target item from getting destroyed upon a failed enhancement.
             </p>
           </CardText>
         </Card>
@@ -305,13 +345,13 @@ const Enhancing = () => (
             showExpandableButton={true}
           />
           <CardText expandable={true}>
-            <p>Enhancing past +15 is much the same as enhancing up to +15, with two key differences:</p>
+            <p>Enhancing past <strong>+15</strong> is much the same as enhancing up to <strong>+15</strong>, with two key differences:</p>
             <ul>
               <li>
-                It uses more expenses Concentrated Stones (~2.25mil for Armor, ~4mil for Weapon), which can be crafted by melting a Shard with two Black Stones.
+                It uses more expenses Concentrated Stones (~2.25mil for <strong>Concentrated Magical Black Stone (Armor)</strong>, ~4mil for <strong>Concentrated Magical Black Stone (Weapon)</strong>)
               </li>
               <li>
-                If you fail attempting TRI (+18), TET (+19), or PEN (+20), your item will actually downgrade (A failed DUO to TRI attempt will put the item at PRI). Ouch!
+                If you fail attempting <strong>TRI</strong> (+18), <strong>TET</strong> (+19), or <strong>PEN</strong> (+20), your item will actually downgrade (A failed <strong>DUO</strong> to <strong>TRI</strong> attempt will put the item at <strong>PRI</strong>). Ouch!
               </li>
             </ul>
           </CardText>
@@ -334,7 +374,7 @@ const Enhancing = () => (
                 Grinding (There are often black stone drop events)
               </li>
               <li>
-                Turning in hunter's seals (You get these primarily from doing Ancient Relic Crystal Scrolls, much moneyz from those)
+                Turning in <strong>Hunter's Seal</strong>s (You get these primarily from doing Ancient Relic Crystal Scrolls, much moneyz from those)
               </li>
             </ul>
             <p>
@@ -345,7 +385,7 @@ const Enhancing = () => (
                 Off the Marketplace (usually a pain in the ass)
               </li>
               <li>
-                Drops from Gathering and Farming (Life Skilling)
+                The precursors drop from Gathering and Farming (<strong>Hard Black Crystal Shard</strong>, <strong>Sharp Black Crystal Shard</strong>)
               </li>
             </ul>
             <p>
@@ -353,10 +393,10 @@ const Enhancing = () => (
             </p>
             <ul>
               <li>
-                Off the Marketplace (often available, but expensive)
+                Off the Marketplace
               </li>
               <li>
-                Ancient Relic Scroll groups
+                <strong>Ancient Relic Crystal Scroll</strong> groups
               </li>
             </ul>
           </CardText>
@@ -369,7 +409,7 @@ const Enhancing = () => (
           />
           <CardText expandable={true}>
             <p>
-              You'll see next to the "Enhancement button" a "Force" option.
+              You'll see next to the "Enhancement" button a "Force" option.
               Forcing an enhancement guarantees success, but costs many more stones than a normal enhancement attempt would, and also costs a lot of max durability.
             </p>
             <p>
@@ -395,13 +435,13 @@ const Enhancing = () => (
                 Artisan's memories multiply by 3x the amount of durability you recover when repairing.  You can use them by putting them in your inventory and checking the "Artisan's Memory?" box when you are repairing max durability.
               </li>
               <li>
-                If you are stacked in real life, consider using them with memory fragments on boss gear. Memory Fragments cost 750k and normally repair 1 max durability on boss gear. With an artisan's memory, a single memory fragment will repair 3 max durability, saving you 1.5mil.  If we say an artisan memory costs ~ $0.40, that comes out to a value of 3.75mil/$1.00. (Compare to a pearl shop item that costs $30 and sells for ~25mil: This comes out to ~0.83mil/$1.00. Artisan's Memories are the clear winner.)
+                If you are stacked in real life, consider using them with memory fragments on boss gear. <strong>Memory Fragment</strong>s cost 750k and normally repair 1 max durability on boss gear. With an artisan's memory, a single memory fragment will repair 3 max durability, saving you 1.5mil.  If we say an artisan memory costs ~ $0.40, that comes out to a value of 3.75mil/$1.00. (Compare to a pearl shop item that costs $30 and sells for ~25mil: This comes out to ~0.83mil/$1.00. Artisan's Memories are the clear winner.)
               </li>
               <li>
                 If you're less stacked, it's still very effective to use artisan's memories repairing blue gear: Consider that a Liverto costs $100mil,
               </li>
               <li>
-                <strong>TL;DR: p2w</strong>
+                <strong>TL;DR: p2w, greatly speed up enhancing gainz</strong>
               </li>
             </ul>
           </CardText>
