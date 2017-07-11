@@ -3,10 +3,12 @@ import ReactGA from 'react-ga';
 ReactGA.initialize('UA-102077362-1', { debug: true })
 
 function logPageView(component) {
-  ReactGA.set({ page: window.location.pathname + window.location.search })
-  ReactGA.pageview(window.location.pathname + window.location.search)
+  return () => {
+    ReactGA.set({ page: window.location.pathname + window.location.hash })
+    ReactGA.pageview(window.location.pathname + window.location.hash)
 
-  return () => component
+    return component
+  }
 }
 
 export { logPageView }

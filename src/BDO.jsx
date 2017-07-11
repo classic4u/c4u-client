@@ -11,8 +11,8 @@ import {
   TableRowColumn
 } from 'material-ui'
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { OutboundLink } from 'react-ga'
+import { Link } from 'react-router-dom'
 
 // TODO: Links don't appear as links when you hover over them?
 const BDO = () => (

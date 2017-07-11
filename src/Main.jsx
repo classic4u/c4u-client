@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
-import { logPageView } from 'Analytics'
+import { logPageView } from 'analytics'
 import BDO from 'BDO.jsx'
 import Enhancing from 'Enhancing.jsx'
 import Home from 'Home.jsx'
@@ -12,8 +12,8 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path="/" render={logPageView(<Home />)} />
-      <Route expacth path="/bdo" render={logPageView(<BDO />)} />
-      <Route path="/bdo/enhancing" component={Enhancing} />
+      <Route exact path="/bdo" render={logPageView(<BDO />)} />
+      <Route path="/bdo/enhancing" render={logPageView(<Enhancing />)} />
       <Route path="/setup" render={logPageView(<Setup />)} />
     </Switch>
   </main>
