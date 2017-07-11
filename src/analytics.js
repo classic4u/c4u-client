@@ -1,6 +1,6 @@
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-102077362-1', { debug: true })
+ReactGA.initialize('UA-102077362-1')
 
 function logPageView(component) {
   return () => {
