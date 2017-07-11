@@ -62,7 +62,15 @@ const BDO = () => (
       <CardText expandable={true}>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="https://docs.google.com/spreadsheets/d/1HE1Lr-7C2ChlCOsBc14z_hY5dkh9tC6tYZFqHgNGIbA/htmlview#">Datamined DP Stats</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - Datamined DP Stats"
+                to="https://docs.google.com/spreadsheets/d/1HE1Lr-7C2ChlCOsBc14z_hY5dkh9tC6tYZFqHgNGIbA/htmlview#"
+                target="_blank"
+              >
+                Datamined DP Stats
+              </OutboundLink>
+            }
           />
           <CardText>
             This supposedly datamined table shows a breakdown of DP per piece of gear (how much evasion vs DR). The value of boss armor is clearly demonstrated in the increased evasion.
@@ -79,13 +87,29 @@ const BDO = () => (
       <CardText expandable={true}>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Tables</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - BDO Enhancement Tables"
+                target="_blank"
+                to="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">
+              >
+                BDO Enhancement Tables
+              </OutboundLink>
+            }
           />
           <CardText>My bible for figuring out what failstacks to build for my enhancement attempts. Note that if you have artisan's memories to use with memory fragments, that may change the math for you.</CardText>
         </Card>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="http://www.incendar.com/failstackoptimizer.php">Incendar's FailStack Optimizer</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - Incendar's FailStack Optimizer"
+                target="_blank"
+                to="http://www.incendar.com/failstackoptimizer.php"
+              >
+                Incendar's FailStack Optimizer
+              </OutboundLink>
+              }
           />
           <CardText>A quick table showing the cheapest method to get to a given number of failstacks.</CardText>
         </Card>
@@ -100,7 +124,15 @@ const BDO = () => (
       <CardText expandable={true}>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="http://bddatabase.net/us/">bddatabase.net</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - bdodatabase.net"
+                target="_blank"
+                to="http://bddatabase.net/us/"
+              >
+                bddatabase.net
+              </OutboundLink>
+            }
           />
           <CardText>
             This site is a great resource for item and quest information. Pretty comprehensive.
@@ -108,7 +140,15 @@ const BDO = () => (
         </Card>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="http://bdoplanner.com/">bdoplanner.com</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - bdoplanner.com"
+                target="_blank"
+                to="http://bdoplanner.com/"
+              >
+                bdoplanner.com
+              </OutboundLink>
+            }
           />
           <CardText>
             Invaluable gear planner. Use this to mess around with different gear setups and figure out which upgrade you want to go for next.
@@ -116,7 +156,15 @@ const BDO = () => (
         </Card>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="http://www.somethinglovely.net/bdo/">somethinglovely.net</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - somethinglovely.net"
+                target="_blank"
+                to="http://www.somethinglovely.net/bdo/"
+              >
+                somethinglovely.net
+              </OutboundLink>
+            }
           />
           <CardText>
             An interactive map with a nice UI. Use it to figure out node connections, find world boss spawns, and resource locations. There's also a Crate Calculator and Horse Calculator, both of which are useful if you're pursuing the respective life skills.
@@ -133,7 +181,15 @@ const BDO = () => (
       <CardText expandable={true}>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="https://www.reddit.com/r/blackdesertonline/comments/5orkr7/answers_faq_about_grinding/">FAQ About Grinding</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - FAQ About Grinding"
+                target="_blank"
+                to="https://www.reddit.com/r/blackdesertonline/comments/5orkr7/answers_faq_about_grinding/"
+              >
+                FAQ About Grinding
+                </OutboundLink>
+            }
           />
           <CardText>A list of grind spots & recommended AP/DP. Quite useful for me when I was first figuring out where to grind post-50.</CardText>
         </Card>
@@ -148,7 +204,15 @@ const BDO = () => (
       <CardText expandable={true}>
         <Card>
           <CardHeader
-            title={<a target="_blank" href="https://www.youtube.com/watch?v=uH2sN62JUSI">Container Trading Guide</a>}
+            title={
+              <OutboundLink
+                eventLabel="MetaGuide - Container Trading Guide"
+                target="_blank"
+                to="https://www.youtube.com/watch?v=uH2sN62JUSI"
+              >
+                Container Trading Guide
+              </OutboundLink>
+            }
           />
           <CardText>The most enjoyable active trading method, IMO. Follow this if you're trying to level up Trading to Master 2 for that sweet sweet trading buff.</CardText>
         </Card>

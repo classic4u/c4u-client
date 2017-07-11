@@ -13,6 +13,7 @@ import {
   TableRowColumn,
 } from 'material-ui'
 import React from 'react'
+import { OutboundLink } from 'react-ga'
 
 
 const Enhancing = () => (
@@ -36,7 +37,7 @@ const Enhancing = () => (
             <p>
               <strong>Hi folks. </strong>
               I'm classic4u.
-              I stream over at <a target="_blank" href="https://twitch.tv/classic4u">twitch.tv/classic4u</a>.
+              I stream over at <OutboundLink eventLabel="Enhancing - twitch.tv/classic4u" target="_blank" to="https://twitch.tv/classic4u">twitch.tv/classic4u</OutboundLink>.
               I've baked up this guide to be a clear, thorough, yet concise (as possible) introduction to enhancing & failstacking.
               Please do reach out to me if you have any sort of feedback whatsoever.
             </p>
@@ -61,7 +62,7 @@ const Enhancing = () => (
                   For example, a <strong>Rosar's Gauntlet</strong> goes from <strong>17 ~ 22 AP</strong> at <strong>+0</strong>, to <strong>69 ~ 74 AP</strong> at <strong>+15</strong>, to <strong>97 ~ 102</strong> at <strong>TRI</strong>!
                 </p>
                 <p>
-                  I use <a target="_blank" href="http://bdoplanner.com">bdoplanner.com</a> and <a target="_blank" href="http://bddatabase.net">bddatabase.net</a> to test out different builds and enhancement levels.
+                  I use <OutboundLink eventLabel="Enhancing - bdoplanner.com" target="_blank" to="http://bdoplanner.com">bdoplanner.com</OutboundLink> and <OutboundLink eventLabel="Enhancing - bddatabase.net" target="_blank" to="http://bddatabase.net">bddatabase.net</OutboundLink> to test out different builds and enhancement levels.
                 </p>
               </CardText>
             </Card>
@@ -176,7 +177,7 @@ const Enhancing = () => (
                   </CardText>
                 </Card>
                 <p>
-                  The <a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Table</a> is what I use for my day to day failstacking.
+                  The <OutboundLink eventLabel="Enhancing - BDO Enhancement Tables" target="_blank" to="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Tables</OutboundLink> are what I use for my day to day failstacking.
                 </p>
                 <p>
                   If you're interested in the math behind it, read the aside and follow the link.
@@ -207,7 +208,7 @@ const Enhancing = () => (
                       So on, and so forth - Calculate the "expected value" for every possible failstack level, and then determine the optimal failstack level (the one with the smallest expected cost).
                     </p>
                     <p>
-                      The creator of the chart <a target="_blank" href="http://forum.blackdesertonline.com/index.php?/topic/115179-enhancement-failstack-costsstrategies/">posted on the old forums</a> and you can follow his links to more posts on math, or download the actual code.
+                      The creator of the chart <OutboundLink eventLabel="Enhancing - BDO Enhancement Tables Info" target="_blank" to="http://forum.blackdesertonline.com/index.php?/topic/115179-enhancement-failstack-costsstrategies/">posted on the old forums</OutboundLink> and you can follow his links to more posts on math, or download the actual code.
                     </p>
                   </CardText>
                 </Card>
@@ -279,7 +280,7 @@ const Enhancing = () => (
                     <ol>
                       <li>Make an alt, level it to 6.</li>
                       <li>
-                        Use <a target="_blank" href="http://www.somethinglovely.net/bdo/#horses">http://www.somethinglovely.net</a> to find a place where horses spawn.
+                        Use <OutboundLink eventLabel="Enhancing - somethinglovely.net" target="_blank" href="http://www.somethinglovely.net/bdo/#horses">http://www.somethinglovely.net</OutboundLink> to find a place where horses spawn.
                       </li>
                       <li>
                         Kill two horses, one at a time, by running them into a rock and beating them repeatedly. You kill two so your karma is negative to the point that the guards in towns will attack you.
@@ -461,7 +462,7 @@ const Enhancing = () => (
                 Be wary of tinfoil. Lots of people have crazy enhancing ideas. To toot my own horn, my methods are based on people who have used mathematics and data, so IMO less subjective and more concrete than most of the tinfoil out there.
               </li>
               <li>
-                Ask Questions: I'm happy to be a resource for you. Hop on <a target="_blank" href="https://twitch.tv/classic4u">twitch.tv/classic4u</a> or in my <a target="_blank" href="https://discord.gg/D22h5Mv">discord</a>, or tweet me at <a target="_blank" src="https://twitter.com/classic4uTV">@classic4uTV</a>.
+                Ask Questions: I'm happy to be a resource for you. Hop on <OutboundLink eventLabel="Enhancing - twitch.tv/classic4u" target="_blank" to="https://twitch.tv/classic4u">twitch.tv/classic4u</OutboundLink> or in my <OutboundLink eventLabel="Enhancing - Club Classic Invite" target="_blank" to="https://discord.gg/D22h5Mv">discord</a>, or tweet me at <OutboundLink eventLabel="Enhancing - twitter.com/classic4uTV" target="_blank" to="https://twitter.com/classic4uTV">@classic4uTV</OutboundLink>.
                 If not me, join a guild, post on the community forums, or ask in server chat. For every troll there's a helpful human bean.
               </li>
             </ul>
@@ -478,13 +479,13 @@ const Enhancing = () => (
               <CardText>
                 <ul>
                   <li>
-                    <a target="_blank" href="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Table</a>
+                    <OutboundLink eventLabel="Enhancing - BDO Enhancement Tables" target="_blank" to="https://docs.google.com/spreadsheets/d/1WzAeIFslcWhZ-TudUTrvt4S6ejGF8Uo5FwVqNivfHK0/pubhtml#">BDO Enhancement Tables</OutboundLink>
                   </li>
                   <li>
-                    <a target="_blank" href="http://www.incendar.com/failstackoptimizer.php">Incendar's Failstack Optimizer</a>
+                    <OutboundLink eventLabel="Enhancing - Incendar's FailStack Optimizer" target="_blank" to="http://www.incendar.com/failstackoptimizer.php">Incendar's FailStack Optimizer</OutboundLink>
                   </li>
                   <li>
-                    <a target="_blank" href="http://bddatabase.net">bddatabase.net</a>
+                    <OutboundLink eventLabel="Enhancing - bddatabase.net" target="_blank" to="http://bddatabase.net">bddatabase.net</OutboundLink>
                   </li>
                 </ul>
               </CardText>
