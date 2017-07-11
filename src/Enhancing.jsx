@@ -280,7 +280,7 @@ const Enhancing = () => (
                     <ol>
                       <li>Make an alt, level it to 6.</li>
                       <li>
-                        Use <OutboundLink eventLabel="Enhancing - somethinglovely.net" target="_blank" href="http://www.somethinglovely.net/bdo/#horses">http://www.somethinglovely.net</OutboundLink> to find a place where horses spawn.
+                        Use <OutboundLink eventLabel="Enhancing - somethinglovely.net" target="_blank" to="http://www.somethinglovely.net/bdo/#horses">http://www.somethinglovely.net</OutboundLink> to find a place where horses spawn.
                       </li>
                       <li>
                         Kill two horses, one at a time, by running them into a rock and beating them repeatedly. You kill two so your karma is negative to the point that the guards in towns will attack you.
@@ -462,7 +462,7 @@ const Enhancing = () => (
                 Be wary of tinfoil. Lots of people have crazy enhancing ideas. To toot my own horn, my methods are based on people who have used mathematics and data, so IMO less subjective and more concrete than most of the tinfoil out there.
               </li>
               <li>
-                Ask Questions: I'm happy to be a resource for you. Hop on <OutboundLink eventLabel="Enhancing - twitch.tv/classic4u" target="_blank" to="https://twitch.tv/classic4u">twitch.tv/classic4u</OutboundLink> or in my <OutboundLink eventLabel="Enhancing - Club Classic Invite" target="_blank" to="https://discord.gg/D22h5Mv">discord</a>, or tweet me at <OutboundLink eventLabel="Enhancing - twitter.com/classic4uTV" target="_blank" to="https://twitter.com/classic4uTV">@classic4uTV</OutboundLink>.
+                Ask Questions: I'm happy to be a resource for you. Hop on <OutboundLink eventLabel="Enhancing - twitch.tv/classic4u" target="_blank" to="https://twitch.tv/classic4u">twitch.tv/classic4u</OutboundLink> or in my <OutboundLink eventLabel="Enhancing - Club Classic Invite" target="_blank" to="https://discord.gg/D22h5Mv">discord</OutboundLink>, or tweet me at <OutboundLink eventLabel="Enhancing - twitter.com/classic4uTV" target="_blank" to="https://twitter.com/classic4uTV">@classic4uTV</OutboundLink>.
                 If not me, join a guild, post on the community forums, or ask in server chat. For every troll there's a helpful human bean.
               </li>
             </ul>
