@@ -13,6 +13,7 @@ import {
   TableRowColumn
 } from 'material-ui'
 import React from 'react'
+import { OutboundLink } from 'react-ga'
 
 // TODO: Links aren't showing the hover hand when you hover over them.
 const Setup = () => (
